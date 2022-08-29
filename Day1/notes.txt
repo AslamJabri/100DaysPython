@@ -1,0 +1,23 @@
+-- Syntax    # example    ~ output
+
+for printing onto the console
+    -- print("")
+    #print("Hello World!")
+
+ 
+ \n = always create a new line
+ String is a characters or a series of alphabets.
+    #print("Hello World!\nHello World!")
+        ~Hello World!
+        ~Hello World!
+
+String Concatenation where we can use + sign to add characters.
+    #print("Hello" + " "+"World!")
+    ~Hello World
+
+It is really important to take care of spaces.
+
+For getting the data from the user we need to input function
+    --input()
+    #input("What is your name?")
+    it wait for the user to type the data
