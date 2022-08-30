@@ -27,5 +27,41 @@ Python Primitive data types
 
 Type Casting
 To convert the data type into different data type.
-~ Ex: string = input("What is your name? ") -- This is Int by default
-    str(number) -- by using type casting we converted Int to String.
+~ Ex: name = input("What is your name? ") -- 
+    print(type(string)) -- checking the type of name
+    str(name) -- by using type casting we converted Int to String.
+
+
+Operators
++ -- adds the values
+- -- Subtracts the values
+* -- Multiply the values
+/ -- divides the values and return the output in float.
+** -- exponent 2 ** 3 = 8
+
+When you have more than 1 math operation then the program excutes according to the priority.
+    PEMDASLR - order of priority
+    () - Parentheses
+    E - exponent
+    M - Multiplication     D - Division
+        Same priority but whatever is on the left will be calculated first
+    A - Addition   S - Subtraction
+        Same priority but whatever is on the left will be calculated first
+    L - Left  to R - Right
+
+
+round is used for rounding the number.
+    ~Ex: print(round(8 / 3 , 2))
+    --  2 gives us 2 numbers after decimal point.
+
+Shorthands
+    score = 0
+    score += 1
+    print(score)
+    ~output: 1
+
+F string
+When we are using different data types to print , we have to first convert them into the string and then print the statement with values.
+To solve that we have f string where it takes all the data without conversion and gives us the output
+    --Syntax print(f"Always f  should {int} be  outside touch{float} of quotes")
+    
