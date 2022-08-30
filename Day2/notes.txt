@@ -1,0 +1,31 @@
+Finding the length of strings
+ -- len()
+ gives the length of the characters and works only characters capped in quotes.
+
+Python Primitive data types
+ -- strings
+ # Ex:("Hello")
+ If you want the index in a string is called subscript.
+ --print("Hello"[0])
+ ~ Output : H
+
+
+ Integer
+ Integer is a whole number no matter positive or negative without any decimal point.
+ # print(1234)
+ ~ Output: 1234
+
+ Float
+ A number with decimal place is called float.
+ # print(3.123)
+ ~ Output: 3.123
+
+ Boolean
+ These are decision makers which consist of either True or False
+ # True
+ # False
+
+Type Casting
+To convert the data type into different data type.
+~ Ex: string = input("What is your name? ") -- This is Int by default
+    str(number) -- by using type casting we converted Int to String.
