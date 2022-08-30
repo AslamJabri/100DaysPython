@@ -7,4 +7,5 @@ split = int(input("How many people to split the bill?"))
 bill_percent = bill * (percentage/100)
 final_bill = bill + bill_percent
 split_person = final_bill/split
-print(f"Each person should pay: ${round(split_person,2)}")
+split_person = "{:.2f}".format(split_person)
+print(f"Each person should pay: ${split_person}")
