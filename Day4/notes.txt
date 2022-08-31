@@ -1,0 +1,10 @@
+Modules
+Split instruction and pack in a py document and use it in the python put.
+For creating a modules we create a file and write the set of instruction into that file.
+After writing instruction we import that file into our main file :
+-- import modulename
+    a = modulename.data
+
+Lists
+it is a data structure. a way to organise the data where we can store group pieces of data.
+
