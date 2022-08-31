@@ -29,3 +29,11 @@ If we have  more than one conditions to check we can also use elif
         do B
     else:
         do C
+
+Logical operators
+and - returns true if both the statementare true
+  a = 7 
+  b = 2
+  a < 10 and b < 5 
+or - returns true if anyone of the statements is true
+not - reverse the result,returns true if the result is false.

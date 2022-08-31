@@ -23,6 +23,6 @@ if first == "left":
         else:
             print("Game Over")
     else:
-        print("Attacked by Trout")
+        print("Attacked by Crocodile 🐊")
 else:
     print("You are Dead!!")
