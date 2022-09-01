@@ -7,4 +7,18 @@ After writing instruction we import that file into our main file :
 
 Lists
 it is a data structure. a way to organise the data where we can store group pieces of data.
+ ~Ex: fruits = ["apple", "jackfruit", "orange"]
+ print(fruits[0])
+ ~Output:  apple
+ this is a list of fruits and it is in order where we can access each item in the list.
+if we use [-1] then the list is started from reverse.
+print(fruits[-1])
+ ~Output:  orange
 
+ The data in the list is mutable which means you can change the data by getting the index.
+ there are many other functions with list which comes in handy like append,extend and many more.
+
+
+ IndexError
+ When there is an Index out of the range of the list.always use -1 as offset with len of list.
+ 

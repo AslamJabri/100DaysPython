@@ -46,3 +46,5 @@ else:
         print("You Win")
     elif user == computer:
         print("It's a draw")
+    else:
+        print("You Win!")
