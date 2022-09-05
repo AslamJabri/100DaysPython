@@ -30,9 +30,9 @@ for num in range(1,(nr_numbers+1)):
     password += random.choice(numbers)
 for num in range(1,(nr_symbols+1)):
     password += random.choice(symbols)
-print(password)
+#print(password)
 random.shuffle(password)
-print(password)
+#print(password)
 password_list= ""
 for char in password:
     password_list+=char
