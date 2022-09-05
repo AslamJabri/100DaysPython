@@ -1,0 +1,25 @@
+Making a function:
+    def function_name():
+        print("Hello")
+        print("Bye")
+
+now that we have created a function. now we need to call the function.
+    function_name()
+
+
+
+Indentation 
+for everything in python there is indentation and it is very important to indent.
+use 4 spaces for indentation. According to python documentation we have to use 4 spaces rather than tabs.
+
+While loops
+while (something_is_true):
+    do something
+there is also another syntax for while
+    while not True:
+        do this
+In this version it waits for it to get true and eventually stop the loop.
+
+When you want to iterate over something and do something with each of the item use for loop .
+When you dont care about number and not cared about list then use while loop.
+Note: It happens to create infinite loop .so take care of while condition.
