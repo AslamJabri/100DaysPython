@@ -22,11 +22,11 @@ while not end_of_game:
             display[position] = letter
     print(f"{' '.join(display)}")
     if guess  not in chosen:
-        print(f"You have guessed {guess} letter , you lose a life.")
+        print(f"You have guessed {guess} ,that's not in the word  you lose a life.")
         lives -= 1
         if lives == 0:
             end_of_game = True
-            print("You lose")  
+            print("You lose!!!")  
     print(stages[lives])
     
 
