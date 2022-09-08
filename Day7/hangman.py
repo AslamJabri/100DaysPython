@@ -1,5 +1,5 @@
 import random
-from hangman_art import *
+from hangman_art import logo , stages
 from hangman_alph import *
 lives = 6
 print(logo)
