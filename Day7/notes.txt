@@ -1,0 +1,10 @@
+Creating the Project HANGMAN
+    Break the project into parts via flow chart programming or psuedo game
+        1)Make the random word and show the blanks to the user
+        2)promot the user to guess the alphabet
+        3)if the guessed alphabet is correct fill the blanks with that or else take one life
+        3)loop the prompt user until the word is complete or the user lose a life
+        4)on every prompt check the user entered alphabet with the guessed word
+        5)If wrong start drawing the hangman and kill on every wrong guess
+        6)If he hangman is full drawn then user lose
+        7)else user wins
