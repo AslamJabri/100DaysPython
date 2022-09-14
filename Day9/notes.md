@@ -13,3 +13,14 @@ looping in dictionary
     for key in dict:
         print(key)#this gives us the keys in dictionary
         print(dict[key])#gives the value in the dictionary
+
+Nesting in Dictionaries and list
+Nesting is like putting folders into one folder.
+    travel_log = {
+        "France" : ["Paris","Lille","Dijon"],#dictionary in a list
+        "Germany": ["Berlin","Hamburg","Stuttgart"]
+    }
+     travel_log = {
+        "France" :{"cities_visited": ["Paris","Lille","Dijon"],"total_visits":12},
+        "Germany":{"cities_visited": ["Berlin","Hamburg","Stuttgart"],"total_visits": 10}
+    }
